@@ -1,0 +1,54 @@
+.employeeForm{
+    background-image : linear-gradient(skyblue, yellowgreen, violet);
+    width : 100%;
+    height : 100vh;
+    overflow-x: hidden;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.curvedBorder{
+    border-radius: 12px;
+    font-size : 28px;
+    margin: 20px;
+    background-color :aqua;
+}
+
+.labeling{
+    font-size : 32px;
+
+}
+
+.submitBtn{
+    font-size : 32px;
+    border-radius: 12px;
+    width : 200px;
+    background-color :green;
+}
+
+.infoDisplay{
+    border : 1px solid black;
+    background-color: cadetblue;
+    width : 75%;
+    margin-left: 15%;
+    margin-top: 30px;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content : space-between;   
+}
+
+.row{
+    border: 1px solid black;
+    width : 450px;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content : space-between;
+    border-radius: 12px;
+    background-color: hotpink;
+    margin : 10px;
+}
